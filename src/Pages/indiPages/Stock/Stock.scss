@@ -1,0 +1,117 @@
+
+
+.container {
+    max-width: 1240px;
+    padding-top: 80px;
+    margin: 0 auto;
+    .box {
+        h1 {
+            font-size: 48px;
+            margin-bottom: 50px;
+        }
+        .food_card {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+            img {
+                width: 600px;
+                height: 400px;
+            }
+            .text {
+                display: flex;
+                justify-content: start;
+                flex-direction: column;
+                margin-left: 40px;
+                .sale {
+                    display: flex;
+                    justify-content: start;
+                    margin-bottom: 50px;
+                    .p1 {
+                        color: red;
+                        text-decoration: line-through;
+                        margin-right: 40px;
+                    }
+                    .p2 {
+                        color: green;
+                    }
+                }
+                h4 {
+                    font-size: 36px;
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+                .busket {
+                    transition: 0.4s;
+                    width: 224px;
+                    height: 60px;
+                    border: 1px solid white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover {
+                        background: #fff;
+                        color: #000;
+                        font-weight: bold;
+                        font-size: larger;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+        .food_card1 {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+            .text1 {
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+                margin-right: 40px;
+                .sale1 {
+                    display: flex;
+                    justify-content: end;
+                    margin-bottom: 50px;
+                    .p1 {
+                        color: red;
+                        text-decoration: line-through;
+                        margin-right: 40px;
+                    }
+                    .p2 {
+                        color: green;
+                    }
+                }
+                h4 {
+                    font-size: 36px;
+                    margin-bottom: 30px;
+                }
+                p {
+                    font-size: 24px;
+                    margin-bottom: 20px;
+                }
+                .busket1 {
+                    transition: 0.4s;
+                    display: flex;
+                    justify-content: flex-end;
+                    margin-left: 370px;
+                    width: 224px;
+                    height: 60px;
+                    border: 1px solid white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    &:hover {
+                        background: #fff;
+                        color: #000;
+                        font-weight: bold;
+                        font-size: larger;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}

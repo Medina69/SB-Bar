@@ -1,0 +1,29 @@
+.about {
+    margin-top: 100px;
+    color: white;
+    h1 {
+        font-family: "Montserrat";
+        font-style: medium;
+        font-size: 36px;
+        line-height: 44px;
+        line-height: 100%;
+    }
+    &__Card {
+        background-color: rgba(0, 0, 0, 0.281);
+        padding: 10px;
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        p {
+            margin-left: 30px;
+            font-style: regular;
+            font-weight: 100;
+            font-size: 20px;
+            line-height: 28px;
+            line-height: 128%;
+            letter-spacing: 0.09em;
+        }
+    }
+}
